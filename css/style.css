@@ -1,0 +1,257 @@
+/* CSS Layout */
+
+
+body {
+	
+	text-align: center;
+	
+}
+
+.fullscreen-bg {
+	
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: auto;
+    height: 100%;
+  }
+}
+
+/* Custom Fonts Access */
+
+@font-face {
+	
+	src: url(../fonts/Acme-Regular.ttf);
+	font-family: mainFlyBryceFont;
+	
+}
+
+/* Navbar Edits */
+
+.navbar-brand:first-letter {
+	
+	color: #00aaff;
+}
+.navbar-brand {
+	font-family: mainFlyBryceFont;
+
+}
+#nav.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+#nav.navbar-default {
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#nav.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#nav.navbar-default .navbar-nav>li>a:hover,
+#nav.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#nav.navbar-default .navbar-nav>.active>a,
+#nav.navbar-default .navbar-nav>.active>a:hover,
+#nav.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(0, 170, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+#nav.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+}
+#nav.navbar-default .navbar-toggle:hover,
+#nav.navbar-default .navbar-toggle:focus {
+    background-color: #008cff;
+}
+#nav.navbar-default .navbar-toggle .icon-bar {
+    background-color: #262626;
+}
+#nav.navbar-default .navbar-toggle:hover .icon-bar,
+#nav.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #262626;
+}
+
+/* Footer */
+
+#footerDiv {
+	
+	/* Text */
+	color: white;
+	font-size: 16px;
+	font-family: mainFlyBryceFont;
+	
+	/* Box */
+	background-color: #00aaff;
+	width: 100%;
+	position: relative;
+	bottom: 0px;
+}
+
+a {
+	
+	color: blue;
+	font-family: mainFlyBryceFont;
+	
+	
+}
+
+a:hover {
+	
+	color: Aqua;
+	font-family: mainFlyBryceFont;
+}
+
+
+label {
+	
+	text-align: center;
+	font-size: large;
+	font-family: mainFlyBryceFont;
+	
+}
+
+/* Index */
+
+#indexPictures > label {
+    
+    font: mainFlyBryceFont;
+    text-shadow: 3px 2px 0px rgba(150, 150, 150, 1);
+    
+}
+
+span {
+	
+	color: #00aaff;
+	
+}
+
+.image-weather {
+	
+    position:relative;
+    display:inline-block;
+    
+	
+	
+}
+
+.overlay {
+	
+    display:none;
+	
+}
+
+.overlay > span {
+    
+    text-align: center;
+    position: relative;
+    top: 75px;
+    color: white;
+    font-family: mainFlyBryceFont;
+    
+}
+
+.image-weather:hover .overlay {
+	
+    width:50%;
+    height:100%;
+    background:rgba(0,0,0,.5);
+    position:absolute;
+    top:0;
+    left:0;
+    display:inline;
+    color:white;
+    padding:12px;
+    font-size:20px;
+	
+}
+
+#indexMoto {
+	
+	width: 100%;
+	height: 50px;
+	margin-top: 100px;
+	margin-bottom: 40px;
+	
+}
+
+img {
+	
+    vertical-align:top;
+}
+
+
+/* About Us */
+
+#aboutUsContent {
+	
+	color: #252525;
+	font-family: mainFlyBryceFont;
+}
+
+.my-slider > ul > li > img {
+    
+    width: 500px;
+    
+}
+
+/* Contact Us */
+
+#requiredSpan {
+	
+	color: red;
+	font-size: large;
+	font-weight: bold;
+}
+
+#commentBox {
+	
+	width: 255px;
+	height: 100px;
+	resize: none;
+	
+}
+
+#containerContent > p {
+	
+	color: black;
+	font-family: mainFlyBryceFont;
+}
+
+#thumbsUpImage {
+    
+    margin-top: 80px;
+    
+}
+
+#push { /*Footer Push*/
+	
+	height: 70px;
+	
+}

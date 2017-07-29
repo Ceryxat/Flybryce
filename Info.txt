@@ -1,0 +1,6 @@
+Hey,
+My weather API will not last forever or for everyone.
+
+However if you want to test my website you should create your own API from where I got mine and edit the weatherscript file.
+
+https://www.wunderground.com
